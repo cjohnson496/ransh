@@ -1,0 +1,9 @@
+#!/bin/bash
+cd
+echo "do not use ~. Use /home/retep"
+read -p "What is the path of the repo? > " input
+awk -v addition="$input" -v targetline=31 '
+NR==targetline { print $0 ":" addition; next}
+{print }' .profile > file.tmp
+mv file.tmp .profile
+
