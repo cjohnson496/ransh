@@ -1,0 +1,2 @@
+#!/bin/bash
+mv repos repos356;n=1;while [ $n -le 500 ];do "mkdir repos$n";n=$( expr $n + 1 );done

@@ -1,6 +1,6 @@
 #!/bin/sh
 #replaces first with second, and puts backup to a .bak file
-find ~ -name "*.go" -print0 | xargs -0 sed -i.bak 's_github.com/retep-mathwizard/utils/src_github.com/retep-mathwizard/utils_g'
+find ~ -name "*.go" -print0 | xargs -0 sed -i 's_github.com/retep-mathwizard/utils/src_github.com/retep-mathwizard/utils_g'
 find . -type f  -name '*.bak' -printf '%TY-%Tm-%Td %TT %p\n' | sort
 #finds all .bak files
 #find . -name "*.bak" -print0 | xargs -0 rm
