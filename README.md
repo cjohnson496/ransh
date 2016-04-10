@@ -2,10 +2,11 @@
 random bash projects
 
 #SHORTCUTS
-remove words in a file and output to different file- `sed 's/word-to-find//g' input.file > output.file`    
+remove every specific word in a file - `sed -i 's/WORD//g' filename`   
 
 remove line with words - `sed -i '/pattern to match/d' filename ` 
 
+replace one word with another - `sed -i s/OLD/NEW/g file`
 add a backup to sed - `-i.bak`    
 
 execute a command on every file in current directory - `find . -type f -exec COMMAND {} \;`    
