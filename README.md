@@ -1,7 +1,5 @@
-# ransh
-random bash projects
 
-#SHORTCUTS
+####SHORTCUTS
 remove every specific word in a file - `sed -i 's/WORD//g' filename`   
 
 remove line with words - `sed -i '/pattern to match/d' filename ` 
