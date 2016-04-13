@@ -11,6 +11,10 @@ execute a command on every file in current directory - `find . -type f -exec COM
   
 find a file from `~` - `find ~ -name filename`  
 
+ROLLBACK GIT REPO - 
+git reset --hard <old-commit-id>
+git push origin HEAD --force
+
 
 
  
