@@ -1,7 +1,8 @@
 #!/bin/sh
-comment=$1
+args=$1
+comment="${args%\"}"
+comment="${comment#\"}"
 [ ! -z "$*" ] && comment="$*"
-
 git pull
 git add -A .
 git commit -a -m "$comment"
