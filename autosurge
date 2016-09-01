@@ -1,0 +1,4 @@
+#!/bin/sh
+SURGEPATH = "/home/retep/repos/site/www"
+SURGEWEBSITENAME = "retep.surge.sh"
+surge $SURGEPATH $SURGEWEBSITENAME
