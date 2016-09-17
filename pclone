@@ -1,0 +1,8 @@
+#!/bin/bash
+shopt -s extglob
+object=$2
+address=$1
+git clone $1
+location="${address##*/}"
+cd $location
+rm -rf !("$object")

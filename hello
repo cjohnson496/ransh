@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source colors.sh #like import in python
+
+echo 'c.B' + "Hello World"
