@@ -13,6 +13,11 @@ find a file from `~` - `find ~ -name filename`
 
 ROLLBACK GIT REPO - 
 `git reset --hard old-commit-id; git push origin HEAD --force`
+LOOK FOR DIRECTORY
+`find -type d -name DIRNAME`
+
+PIPE ERRORS TO NULL
+`command 2>/dev/null`
 
 
 
