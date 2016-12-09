@@ -22,7 +22,7 @@ PIPE ERRORS TO NULL
 `command 2>/dev/null`
 
 SEARCH AND REPLACE VIM
-`%s/old/new/gci`
+`:%s/old/new/gci`
 
 + `g` = global, replaces all, not just first one in each line
 + `c` = confirmation, ask for confirmation
